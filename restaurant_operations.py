@@ -26,7 +26,7 @@ class Restaurant(db.Model):
                 'specialties': self.specialties}
 
     def add_restro(self, restaurant_name, food_type, _cuisine, _price, _specialties):
-        """function to add restaurant to database using _name, _year, _address as parameters"""
+        """function to add restaurant to database using name, food_type, cuisine, price, specialties as parameters"""
         # creating an instance of our Restaurant constructor
         new_restaurant = Restaurant(restaurant=restaurant_name, type_of_food=food_type, cuisine=_cuisine, price=_price,
                                     specialties=_specialties)

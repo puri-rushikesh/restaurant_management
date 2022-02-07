@@ -4,9 +4,9 @@ from urllib.parse import quote
 project_path = "C:\\Learning\\Python Projects\\restaurant_management"  # Configure here project path
 
 db_config = {"user": "postgres",
-             "password": "Tieto@123",  # add password for the database connection
+             "password": "*****",  # add password for the database connection
              "db": "postgres",
-             "host": "tswin04.testdev01.int.tds.tieto.com",  # add host info
+             "host": "****",  # add host info
              "port": 5432,
              "schema": "public",
              "table": "restaurant"}
